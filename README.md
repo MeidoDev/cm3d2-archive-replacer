@@ -1,11 +1,11 @@
 ArchiveReplacer
 ===============
 
-**Version:** 2015.9.6.0
+**Version:** 2015.9.21.0
 
-**Source:** [Gist](https://gist.github.com/asm256/8f5472657c1675bdc77a)
+**Source:** [Github](https://github.com/asm256/CM3D2.ArchiveReplacer)
 
-**Author:** [asm256](https://gist.github.com/asm256)
+**Author:** [asm__](https://github.com/asm256)
 
 This patch / hook combination allows injecting resources into arc files without actually touching them. It basically works like DEFLARC, without the need to extract all the arc files.
 

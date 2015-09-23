@@ -25,5 +25,5 @@ IF NOT EXIST %GAME_DIR%\_Data (
 
 REM Compile hook
 CD /D %GAME_DIR%\CM3D2x64_Data\Managed
-%COMPILER% /t:library /lib:. /r:Assembly-CSharp-firstpass.dll %SRC_DIR%\CM3D2.ArchiveReplacer.Hook.cs
+%COMPILER% /t:library /lib:. /r:Assembly-CSharp-firstpass.dll /r:UnityEngine.dll %SRC_DIR%\CM3D2.ArchiveReplacer.Hook.cs
 pause;
